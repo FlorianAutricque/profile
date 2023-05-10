@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(235, 240, 244) ;
+  font-family: Cormorant Garamond;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+h1{
+  color: #567189;
+  font-family: Roboto Slab ;
+  font-size: 30px;
+  line-height: 10px;
+}
+
+
+h2{
+  color: #567189;
+  font-family: Roboto Slab ;
+  font-size: 25px;
+  line-height: 10px;
+}
+
+h3{
+  color: #567189;
+  font-family: Roboto Slab ;
+  font-size: 17px;
+  line-height: 3px;
+}
+
+li{
+  display: inline;
+  padding: 10px;
+}
+
+.container{
+  width: 800px;
+    margin: auto;
+}
+
+
+
+#img-circle{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid rgb(210, 185, 150);
+}
+
+
+.card-white{
+  background: white;
+  border: 1px solid lightgrey;
+  margin: 12px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px #567189;
+  text-align: center;
+  padding: 30px ;
+}
+
+
+.btn-beige{
+  background-color: #8b98a3f8 ;
+  color: #e9dac5;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #567189 ;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+a{
+  color: #CFB997;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: rgb(160, 189, 199);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 430px) {
+  .container{
+    width: 350px;
+  }
+  h1{
+    content: "\a";
+    white-space: pre;
+  }
+}
